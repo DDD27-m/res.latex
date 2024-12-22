@@ -1,0 +1,126 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{array}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Huge\textbf{MAKESWARAN K}} \\[5pt]
+    \small B.E Electronics and Communication Engineering \\[5pt]
+    \small Mobile: 8754078945 | Email: \href{mailto:makeswarankrishnasamy@gmail.com}{makeswarankrishnasamy@gmail.com} \\[5pt]
+    \small \href{https://www.linkedin.com/in/makeswaran-k-aa9196261/}{https://www.linkedin.com/in/makeswaran-k-aa9196261/} \\[5pt]
+    \small Tiruppur, Tamil Nadu, India
+\end{center}
+
+% Summary
+\section*{Summary}
+I am an electronics engineering graduate with expertise in C, Java, Python, and IoT. I excel in teamwork, adaptability, and am passionate about applying my skills to innovative projects while continuously expanding my knowledge.
+
+% Education
+\section*{Education}
+\begin{tabular}{@{}p{0.65\textwidth}r@{}}
+    \textbf{KPR Institute of Engineering and Technology} & \textit{November 2022 - November 2026} \\ 
+    \textit{Bachelor of Engineering} & CGPA: 8.9 \\ 
+    \textit{Coimbatore, Tamil Nadu} \\[5pt]
+    
+    \textbf{Vivekananda Vidyalaya Matric Hr Sec School} & \textit{2021 - 2022} \\ 
+    \textit{High School} & 92\% \\ 
+    \textit{Tiruppur, Tamil Nadu} \\[5pt]
+
+    \textbf{Vivekananda Vidyalaya Matric Hr Sec School} & \textit{2019 - 2020} \\ 
+    \textit{Secondary School} & 88.8\% \\ 
+    \textit{Tiruppur, Tamil Nadu} \\ 
+\end{tabular}
+
+% Key Achievements
+\section*{Key Achievements}
+\begin{tabular}{@{}p{0.65\textwidth}r@{}}
+    \textbf{Member of ISTE Society} & \textit{2024-2025} \\[5pt]
+    \textbf{Paper Presentation} & \textbf{Winner 1st Prize, Aug 2024} \\ 
+    \textit{Hindustan Institute of Technology, Coimbatore} & \\[5pt]
+    \textbf{TechXcelerate 20 Hours Hackathon} & \textbf{Winner 3rd Prize, Nov 2024} \\ 
+    \textit{BITS Pilani, Hyderabad} & \\
+\end{tabular}
+
+% Internships
+\section*{Internships}
+\begin{tabular}{@{}p{0.85\textwidth}r@{}}
+    \textbf{AMI Centre} & \textit{January 2024} \\ 
+    \textit{Arasur, Coimbatore} & \\[5pt]
+    \multicolumn{2}{@{}p{0.9\textwidth}@{}}{Gained hands-on experience in working with sensors and designing PCB circuit boards } \\[5pt]
+    
+    \textbf{LITZ Tech India Private Limited} & \textit{July 2024} \\ 
+    \textit{Peelamedu, Coimbatore} & \\[5pt]
+    \multicolumn{2}{@{}p{0.9\textwidth}@{}}{ Gained knowlege on going  IIoT projects and f0undation of embedded systems to  over  150 participants across  two NAAC A+ and one NAAC A++ college receiving positive feedback on presentation clarity and technical expertise} \\ 
+\end{tabular}
+
+% Technical Skills
+\section*{Technical Skills}
+\begin{tabular}{@{}p{0.4\textwidth}p{0.9\textwidth}@{}}
+    \textbf{Programming Languages} & C, Java, Python, Arduino Programming \\[5pt]
+    \textbf{Microcontrollers} & Arduino Uno, NodeMCU \\[5pt]
+    \textbf{Microprocessors} & Raspberry Pi \\[5pt]
+    \textbf{Tools \& Software} & Altium, Arduino IDE, MATLAB, ThingSpeak \\[5pt]
+    \textbf{IoT Protocols} & MQTT, Zigbee, SSH \\[5pt]
+\end{tabular}
+
+% Languages
+\section*{Languages}
+\begin{tabular}{@{}p{0.8\textwidth}r@{}}
+    \textbf{English} & Proficient \\[5pt]
+    \textbf{Tamil} & Native \\ 
+\end{tabular}
+
+% Courses
+\section*{Courses}
+\begin{itemize}[left=0em, label={}]\setlength\itemsep{0.5em}
+    \item MCUT International Workshop Electronic Engineering with AI (3 Months) 
+    \item CISCO Certification IoT, Cyber Security 
+    \item NPTEL Industrial 4.0 \& IoT (12 Weeks, Elite) 
+    \item AWS Certification IoT 
+    \item HackerRank Certification C, Java, Python 
+    \item TimesPro Python certification 
+    \item MATLAB Basics and Fundamentals 
+    \item European Open University Embedded Systems 
+    \item Coursera IoT, Python, C, Cyber Security 
+\end{itemize}
+
+% Projects
+\section*{Projects}
+\begin{itemize}[left=0em, label={}]
+ \item \textbf{Developed an IoT-based plant watering system that optimized water usage by 15\%,  utilizing ESP8266 for Wi-Fi connectivity and soil moisture sensors for real-time monitoring.}
+
+    \textit{Technology Used:} DHT11, ESP8266, C Programming, Arduino UNO.
+    
+    \item \textbf{Two-way communication between Raspberry Pis}: Configured SSH connection between two Raspberry Pi devices to allow secure, efficient data transfer. \\
+    \textit{Technology Used:} Python, Raspbian OS, SSH, Raspberry Pis.
+    
+    \item \textbf{Hybrid EV Charger for 2-Wheelers}: Designed a hybrid EV charger that uses solar energy during the day and grid power at night, optimizing energy usage with DHT11 and LDR sensors which meets the normal battery requirements of  12V \\
+    \textit{Technology Used:} Solar energy, Grid power, C Programming, Arduino UNO.
+    
+    \item \textbf{Industrial Monitoring Using MQTT}: Developed an industrial monitoring system using MQTT to track temperature conditions in real-time. \\
+    \textit{Technology Used:} MQTT, C Programming, Arduino UNO.
+    
+    \item \textbf{Environmental Monitoring System Using Zigbee}: Created a system to monitor temperature and humidity using IEEE 802.15.4. \\
+    \textit{Technology Used:} Zigbee, C Programming, Arduino UNO.
+\end{itemize}
+
+
+% Hobbies
+\section*{Hobbies}
+\begin{itemize}[left=0em, label={}]\setlength\itemsep{0.5em}
+    \item Listening to music
+\end{itemize}
+
+% Declaration
+\section*{Declaration}
+I hereby declare that the information provided above is accurate and true to the best of my knowledge.
+
+\end{document}
